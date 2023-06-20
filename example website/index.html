@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="This is an example website using bootstrap4">
+    <meta name="viewport" content="width=devicewidth, initial-scale-1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script defer src="example.js"></script>
+    <link rel="stylesheet" href="example.css">
+</head>
+<body>
+
+    <!-- bootstrap navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark bg-info shadow-lg">
+        <a href="#home" class="navbar-brand">Example</a>
+        <button class="navbar-toggler" data-toggle="collapse" data-target="#navbarMenu">
+            <span class = "navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse " id="navbarMenu">
+            <ul class="navbar-nav ml-auto">
+                        <li class = "nav-item">
+                            <a href = "#about" class="nav-link">about</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#pricing" class="nav-link">pricing</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#find" class="nav-link">find us</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "#contact" class="nav-link">contact us</a>
+                        </li>
+                </ul>
+        </div>
+
+    </nav>
+    
+
+
+    <div class="placeholderNav" id="home"></div>
+
+    <div class="row home">
+        <div class="col-md-6 col-lg-5 col-xl-6 imgHome" style="margin: 0px;">
+            <!-- <img class="img" src="img/stocksea.jpg" alt=""> -->
+        </div>
+        <div class="col-md-6 col-lg-7 col-xl-6 col-sm-12 shadow-sm"style="padding-top: 50px;">
+            <h1>Bootstrap4 example website</h1>
+            <h2 style="font-size: large; margin-top: 10px; ">features include:</h2>
+            <ul class="list-group list-group-flush features1" id="features1" style="padding-top: 25px; margin-bottom: 70px; padding-right: 0px;">
+                <li class="list-group-item">responsive navbar</li>
+                <li class="list-group-item">navbar page scrolling</li>
+                <li class="list-group-item">mobile friendly relative sizing and display</li>
+                <li class="list-group-item">input forms</li>
+            </ul>
+            
+            <p class="homep">Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero voluptate magnam ad eaque molestiae omnis pariatur placeat commodi, perferendis reprehenderit suscipit alias laborum? Iusto expedita quia doloremque corrupti obcaecati? Cum, quae. Provident doloremque, vitae vero velit, tenetur ratione facere hic, iste eius et modi magni recusandae illo eum. Perferendis explicabo a corporis eum dolore ex ea quo, sequi porro recusandae pariatur reiciendis consequatur expedita illo, veritatis voluptatum ipsum animi, ipsa quidem? Eum est eaque nihil autem delectus, nesciunt, blanditiis aut vel sed nisi praesentium libero, nostrum placeat doloribus commodi. Porro a voluptates veniam, aliquid eligendi at necessitatibus praesentium dolorem eveniet vitae amet voluptate, autem et quisquam, ipsum sint dolorum. Ea repudiandae reiciendis voluptatem eos eum nobis dolorem dolore omnis alias laboriosam, beatae possimus consequatur tempore dolorum? Asperiores delectus ipsa, optio ullam quas ab sint blanditiis ipsam nam sapiente, et repellat quibusdam. Maxime, consectetur quaerat! Est iusto fuga optio laborum distinctio!</p>
+            <div class="placeholderHome"></div>
+            
+        </div>
+    </div>
+    
+    <div class="placeholderNav" id="about"></div>
+
+    <div class="about row">
+        <div class="col">
+            <h4 class="abouth">About</h4>
+            <ul class="list-group list-group-flush featureDetails">
+                <li class="list-group-item">responsive navbar.</li>
+                <p>bootstrap allows a navbar that resizes based on screen size, to try this out press ctr+shift+I or right click inspect and try resizing the active window.</p>
+                <li class="list-group-item">navbar page scrolling.</li>
+                <p>try clicking the navbar links to scroll content into view. You can click the example logo text to return to the home area.</p>
+                <li class="list-group-item">mobile friendly relative sizing and display.</li>
+                <p>bootstrap grid allows a content to resize based on screen size, to try this out press ctr+shift+I or right click inspect and try resizing the active window or open in your mobile browser.</p>
+                <li class="list-group-item">input forms.</li>
+                <p>forms are validated using bootstrap4 and are sent to my email.</p>
+            </ul>
+        </div>
+    </div>
+
+    <div class="placeholderAbout"></div>
+    
+    <div class="placeholderNav" id="pricing"></div>
+
+
+
+    
+    
+
+    
+    <!-- pricing -->
+    <h3>Pricing</h3>
+    <div class="pricing row">
+        
+        <div class="col shadow-sm">
+            <h4>Option 1</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error molestiae minus neque distinctio adipisci ipsum sunt quis sed cumque vel, iusto, in esse, odit fugit veritatis nostrum laborum veniam velit nulla repudiandae blanditiis libero. Voluptatem alias dolorem odit! Libero, reprehenderit magni recusandae vel, maiores harum minima sapiente voluptatem enim, tenetur molestias rerum ut odit earum. Enim sequi reprehenderit nemo distinctio! Iste voluptatem nemo soluta mollitia quo rem voluptatum libero reprehenderit, commodi minus, molestiae laborum magnam corporis deleniti aliquam ab nam non ipsam blanditiis quaerat quidem maxime incidunt! Et voluptate iure rerum reprehenderit temporibus harum vitae similique enim in fuga aut minus at ipsam deserunt, rem minima. Possimus minima reiciendis quia harum dolor temporibus. Recusandae nobis officiis inventore ipsum commodi, ad ratione cumque soluta? Expedita rem reprehenderit nobis. Ex libero repellendus est vel ducimus doloribus excepturi aliquid, dolorum earum dolores omnis voluptate. Quasi porro ut expedita consequuntur. Praesentium perferendis non voluptatibus?</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">£20.00</li>
+                <li class="list-group-item"></li>
+            </ul>
+        </div>
+        <div class="col shadow-sm">
+            <h4>Option 2</h4>
+            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores omnis eveniet repellat minus non facilis. Nam qui blanditiis modi quaerat dolorum expedita libero obcaecati commodi voluptatem aut saepe dolorem fugiat ab inventore maiores, maxime reprehenderit suscipit! Consequuntur perspiciatis doloribus repellendus corrupti provident unde sint optio itaque perferendis dicta? Expedita quos, minus itaque odio inventore libero velit doloremque rerum. Deserunt ea praesentium facilis ex blanditiis nihil alias a incidunt ullam voluptate error voluptatem, magnam iure reprehenderit provident ipsa inventore tenetur officiis sapiente? Labore dignissimos odio, fugit necessitatibus quaerat ex ipsum fuga consequatur ducimus? Dolor, perspiciatis unde! Dolor omnis, quas, ex veritatis voluptate ullam est ratione quidem quo dolores minus totam laboriosam odit temporibus, quaerat veniam? Soluta possimus quas ipsa mollitia optio consequuntur dolores temporibus rem tempora at cumque commodi eius nam fuga delectus, veritatis non laudantium vel alias nesciunt ad beatae harum! Aliquid dolore incidunt ad eligendi eum quam dolores est!</p>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">£30.00</li>
+                <li class="list-group-item"></li>
+            </ul>
+        </div>
+        <div class="placeholderPricing">
+        <h4>Option 3</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae reiciendis sint esse nobis, est rem repellendus dolore debitis enim exercitationem asperiores sequi nulla placeat minima et suscipit possimus totam earum. Ratione fugiat molestias temporibus exercitationem praesentium provident, adipisci eligendi consequatur id hic totam labore odio illo porro ipsum iste iure est autem doloremque aspernatur. Necessitatibus harum quia odio quam ex, iusto tenetur magni ea vel explicabo voluptatum, dicta impedit est veritatis perferendis fugiat repellendus voluptate quis, delectus dolor earum! Delectus amet natus nemo impedit quae, iure voluptatibus quos quo exercitationem dignissimos, sapiente maiores nisi! Magnam non debitis laborum corporis vitae veniam. Sed sunt nobis dolorum veritatis, aliquid quia unde neque, omnis, cum quos praesentium maxime. Cum distinctio eveniet, tempora, tenetur praesentium voluptatem aperiam reprehenderit odit quas, id veritatis explicabo et dolorum. Autem consequuntur sit omnis. Quasi praesentium unde minima, ad tenetur at assumenda numquam expedita deserunt earum atque cupiditate, fugit neque illum! Commodi ut voluptates qui molestias dolorem sint alias inventore iste itaque in saepe nesciunt explicabo deleniti quae repudiandae modi eaque dolore reprehenderit quibusdam obcaecati minus, a, quis ad quaerat. Rem est explicabo atque cum, ut mollitia consectetur. In, incidunt aliquam reprehenderit sunt officia pariatur omnis. Officiis, praesentium? Labore!</p>
+        <ul class="list-group list-group-flush">
+            <li class="list-group-item">£50.00</li>
+            <li class="list-group-item"></li>
+        </ul>
+    </div>
+    </div>
+    
+
+    <div class="placeholderNav" id="find"></div>
+
+
+<div class="findUs row">
+        <div class=" col-sm-0 col-lg-5 col-xl-5 imgFind">
+
+        </div>
+        <div class=" col-lg-7 col-xl-7 col-sm-12 shadow-sm">
+            <h4>Find us</h4>
+            <ul class="list-group">
+                <li class="list-group-item">Mr Jo bloggs</li>
+                <li class="list-group-item">10 Downing st,</li>
+                <li class="list-group-item">Westminster,</li>
+                <li class="list-group-item">London,</li>
+                <li class="list-group-item">SW1A 2AA</li>
+            </ul>
+            <div class="placeholderFind"></div>
+            
+        </div>
+    </div>
+
+    <div class="placeholderNav" id="contact"></div>
+    <div class="contact row">
+        <div class="col-md-8 col-xl-6">
+            <h3>Contact us</h3>
+            <div class="placeholderContact1 bottom">
+                
+            </div><p>Contact us by phone or email,</p>
+            <div class="row center">
+                <div class="col">
+                    
+                    <ul class="list-group">
+                        <li class="list-group-item">Name</li>
+                        <li class="list-group-item">Email</li>
+                        <li class="list-group-item">phone number</li>
+                    </ul>
+                </div>
+                <div class="col">
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Mr William Saxton</li>
+                        <li class="list-group-item">email</li>
+                        <li class="list-group-item">0118 999 881 999 119 725 3</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="placeholderContact2"></div>
+        </div>
+        <div class="col-md-4 col-xl-6 shadow-sm panell">
+            <!-- Example forms -->
+            <div class="placeholderContact3"></div>
+            <form action="/" id="form" methd="POST" class="needs-validaion" data-netlify="true" novalidate>
+                <label for="Firstname">Or leave your details for us to get in touch.</label>
+                <div class="row">
+                    <div class="col">
+                        <div class="form-group">
+                            <input type="text" name="Title" id="title" class="form-control text-info" placeholder="Title e.g. Mr/Mrs..." required>
+                            <div class=""></div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <input type="text" name="Firstname" id="firstname" class="form-control text-info" placeholder="Firstname" required>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="form-group">
+                            <input type="text" name="Secondname" id="secondname" class="form-control text-info" placeholder="Secondname" required>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <div class="form-group">
+                    <input type="text" name="email" id="email" class="form-control text-info" placeholder="Email" required>
+                </div>
+
+                <select name="customer" id="customer" class="form-control text-info custom-select" required>
+                    <option value="customer" selected>Customer(New/existing)</option>
+                    <option value="new">New</option>
+                    <option value="existing">Existing</option>
+                </select>
+                <div class="center">
+                    <button class="btn btn-info btn-lg " type="submit" name="submit">Submit</button>
+                </div>
+                
+            </form>
+            <div class="placeholderContact4"></div>
+        </div>
+    </div>
+
+
+
+
+</body>
